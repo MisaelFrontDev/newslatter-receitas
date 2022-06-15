@@ -1,0 +1,104 @@
+body{
+    background-color: #f2f1f6;
+    color: rgb(29, 29, 29);
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 5px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: rgb(29, 29, 29);
+}
+
+a:hover{
+    color: #dbc546;
+    transition: 0.3s all;
+}
+
+#apoie-btn{
+    border: 2px solid #dbc546;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#apoie-btn:hover{
+    background-color: #dbc546;
+    color:rgb(29, 29, 29);
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{ /*separacao do aside com article, esquerda e direita */
+    display: flex;
+    flex-direction: row;
+}
+
+h2{
+    font-size: 43px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color: rgb(192, 133, 56);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 550px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 45px;
+    width: 30%;
+    background-color:rgb(223, 185, 135);
+    color: rgb(151, 119, 76);
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgb(235, 199, 152);
+    color: rgb(253, 242, 229);
+    transition: 0.4 all;
+}
+
+input{
+    margin-top: 20px; 
+    height: 20px; 
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+
+}
